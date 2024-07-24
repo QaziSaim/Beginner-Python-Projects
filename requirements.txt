@@ -1,1 +1,7 @@
+# Project 1
 moviepy
+# Project 2
+google-api-python-client
+# This module is for extract data
+pandas #
+openpyxl
