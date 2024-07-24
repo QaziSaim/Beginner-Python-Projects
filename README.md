@@ -1,4 +1,4 @@
-# Some Begginers Projects are there
+# Some Begginers Projects
 ## It would be fun if we take some unique topic to test our skills it one of the simple one project in which we only need to install moviepy module
 1. Videos Length Calculator
    it not long project it only take hardly of 15 minuts to type and run it would be helpul for those who don't want to put there information on online website.
