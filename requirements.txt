@@ -5,3 +5,6 @@ google-api-python-client
 # This module is for extract data
 pandas #
 openpyxl
+# Project 3
+bs4
+requests

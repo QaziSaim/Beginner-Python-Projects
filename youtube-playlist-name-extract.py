@@ -22,15 +22,15 @@ def get_playlist_videos(api_key, playlist_id):
     return videos
 
 def main():
-    api_key = "" # Replace with your actual API key
+    api_key = ""# Replace with your actual API key
     playlist_url = ""
 
     # Extract the playlist ID from the URL
     playlist_id = playlist_url.split('list=')[-1].split('&')[0]
 
     videos = get_playlist_videos(api_key, playlist_id)
-    df = pd.DataFrame(videos, columns=['Video Title'])
-    output_file = 'playlist_videos.txt'
+    df = pd.DataFrame(videos)
+    output_file = 'playlist_videos.xlsx'
     df.to_csv(output_file, index=False)
 
     print(f'Course list of topics saved to {output_file}')
