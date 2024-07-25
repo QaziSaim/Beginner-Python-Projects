@@ -22,11 +22,11 @@ def search(query):
 
 # Main function
 def main():
-    url = 'https://en.wikipedia.org/wiki/Abdul_Qadir_Gilani'
+    url = ''
     page_content = crawl_web(url)
     index_content(url, page_content)
     
-    query = 'Name'
+    query = ''
     results = search(query)
     print(f"Search results for '{query}': {results}")
 

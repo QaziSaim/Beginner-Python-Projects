@@ -20,6 +20,5 @@ def calculate_total_duration(directory):
 # Example usage:
 if __name__ == "__main__":
     directory = 'path'
-    # directory="https://www.youtube.com/playlist?list=PL6XT0grm_TfgP3OlZzmGh4Cq_rHtX8z7e"
     total_duration = calculate_total_duration(directory)
     print(f"Total duration of MP4 videos in {directory}: {total_duration*0.000277778} hours")
