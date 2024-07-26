@@ -8,3 +8,6 @@ openpyxl
 # Project 3
 bs4
 requests
+# Project 4
+speech_recognition
+pyaudio
