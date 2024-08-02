@@ -14,7 +14,7 @@ def determine_winner(user_choice, computer_choice):
     else:
         return "You lose!"
 
-def main():
+def main(): 
     print("Welcome to Snake, Water, Gun!")
     user_choice = input("Enter your choice (snake, water, gun): ").lower()
 
